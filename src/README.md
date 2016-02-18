@@ -48,6 +48,7 @@ Doc to read [Wide]
 7. Firechat: https://github.com/firebase/firechat
 
 Doc to read [Narrow]
+------------------------
 1. Chatapp: http://sebastiandahlgren.se/2013/07/17/tutorial-writing-your-first-metor-application/
 
 Questions
