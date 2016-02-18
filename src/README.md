@@ -3,12 +3,17 @@
 List
 ----
 1. Database: Try to use MySQL or other databases instead of MongoDB
-2. Server: Own Server, Cloud (AWS, OpenStack, or Others), Firebase
+2. Deploy: Own Server, Cloud (AWS, OpenStack, or Others), Firebase
+   
+    2.1 [Meteor Free Server](http://docs.meteor.com/#/full/quickstart): meteor deploy myapp.meteor.com
+
 3. UI: Reactjs, Angularjs, Bootstrap
 4. Research: Research other apps, like snapchat, whatsapp
 5. Feed/Moment/TimeLine: Yes or Not
-6. Account System: User Authentication (No OAuth)
+6. Account System: User Authentication (No OAuth) [ID, Passport, UserInfo]
 7. Project Website: Github or any site
+8. Server: Add Server end
+9. Client-Server synchronization: Meteor DDP
 
 Module to build
 -------------------
@@ -32,16 +37,27 @@ Direction
 1. Several Versions [BFS]
 2. Meteor as primary [DFS]
 
-Doc to read
---------------
+Doc to read [Wide]
+------------------------
 1. Meteor Doc: http://docs.meteor.com/
-2. AndroidChat: https://github.com/BitTigerInst/AndroidChat
-3. Empachat: https://github.com/BitTigerInst/Empachat
-4. Timeline.css: https://github.com/christian-fei/Timeline.css
-5. Opentalk.me: https://github.com/christian-fei/opentalk.me
-6. Firechat: https://github.com/firebase/firechat
+2. Meteor Manual: https://manual.meteor.com/
+3. AndroidChat: https://github.com/BitTigerInst/AndroidChat
+4. Empachat: https://github.com/BitTigerInst/Empachat
+5. Timeline.css: https://github.com/christian-fei/Timeline.css
+6. Opentalk.me: https://github.com/christian-fei/opentalk.me
+7. Firechat: https://github.com/firebase/firechat
+
+Doc to read [Narrow]
+1. Chatapp: http://sebastiandahlgren.se/2013/07/17/tutorial-writing-your-first-metor-application/
 
 Questions
 ------------
 1. Reactive or Response?
+2. Lock Consideration?
+3. Super single thread / Multiple Threads for responses
+
+Note
+------
+1. Transparent Reactive Programming: Meteor Deps
+    
 
