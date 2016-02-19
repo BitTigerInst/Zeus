@@ -49,6 +49,7 @@ Doc to read [Wide]
 8. Meteor Chatroom Tutorial: https://github.com/meteor/chat-tutorial
 
 Doc to read [Narrow]
+------------------------
 1. Chatapp: http://sebastiandahlgren.se/2013/07/17/tutorial-writing-your-first-metor-application/
 
 Questions
