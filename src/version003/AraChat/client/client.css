@@ -1,0 +1,133 @@
+body {
+  font-family: sans-serif;
+  background-color: #315481;
+  background-image:
+    radial-gradient(ellipse farthest-corner at 0 0, rgba(0,0,0,.2) 0%, rgba(62,45,177, .3) 50%,
+    rgba(255,255,255,.3) 95%), linear-gradient(to bottom, #a7cbf9, #25da8e 100%);  background-attachment: fixed;
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  padding: 0;
+  margin: 0;
+
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.container {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+  min-height: 100%;
+  background: #ffffff;
+}
+
+header {
+  background: #d2edf4;
+  background-image: linear-gradient(to bottom, #d0edf5, #b4dbff 100%);
+  padding: 20px 15px 15px 15px;
+  line-height: 1;
+}
+
+footer {
+  background: #d2edf4;
+  background-image: linear-gradient(to tos, #d0edf5, #b4dbff 100%);
+  position: absolute;
+  bottom: 0;
+  height: 85px;
+  box-sizing: border-box;
+  padding: 30px 15px 15px 15px;
+  width: 100%;
+}
+
+#login-buttons {
+  display: block;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+form {
+  margin-top: -10px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.new-message input {
+  box-sizing: border-box;
+  padding: 8px 5px;
+  width: 100%;
+  padding-right: 80px;
+  font-size: 1em;
+}
+
+.new-message input:focus{
+  outline: 0;
+}
+
+.message-window {
+  position: absolute;
+  top: 80px;
+  bottom: 70px;
+  width: 100%;
+  max-width: 600px;
+  margin: 0;
+  padding: 0;
+  background: white;
+  overflow: scroll;
+}
+
+
+.message {
+  position: relative;
+  list-style: none;
+  padding: 15px;
+  border-bottom: #eee solid 1px;
+  background-color: transparent;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.message-text{
+  margin-top: 5px;
+}
+
+.more-messages {
+  position: absolute;
+  bottom: 6rem;
+  left: 50%;
+  width: 140px;
+  height: 20px;
+  margin-left: -70px;
+  color: white;
+  background-color: #ff5959;
+  border-radius: 8px;
+  border-style: none;
+  opacity: .7;
+  cursor: pointer;
+}
+
+.more-messages:focus {
+  outline: none;
+}
+
+@media (max-width: 600px) {
+  li {
+    padding: 12px 15px;
+  }
+
+  .new-message input {
+    padding-top: 15px;
+  }
+}

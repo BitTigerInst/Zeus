@@ -1,7 +1,6 @@
 #AraChat
 
-List
-----
+##List
 1. Database: Try to use MySQL or other databases instead of MongoDB
 2. Deploy: Own Server, Cloud (AWS, OpenStack, or Others), Firebase
    
@@ -15,8 +14,7 @@ List
 8. Server: Add Server end
 9. Client-Server synchronization: Meteor DDP
 
-Module to build
--------------------
+##Module to build
 1. Recommender Module: recommend people
 2. Hashtag Module: convenient for history searching
 3. Text Summary & Information Extraction module
@@ -24,21 +22,18 @@ Module to build
 5. Search Module
 6. Chat App Connection Module
 
-Version Description
------------------------
+##Version Description
 1. Meteor: client-server seperate, MongoDB
 2. Meteor: client-server united
 3. Java -multi-thread
 4. Php
 5. Django
 
-Direction
------------
+##Direction
 1. Several Versions [BFS]
 2. Meteor as primary [DFS]
 
-Doc to read [Wide]
-------------------------
+##Doc to read [Wide]
 1. Meteor Doc: http://docs.meteor.com/
 2. Meteor Manual: https://manual.meteor.com/
 3. AndroidChat: https://github.com/BitTigerInst/AndroidChat
@@ -48,18 +43,21 @@ Doc to read [Wide]
 7. Firechat: https://github.com/firebase/firechat
 8. Meteor Chatroom Tutorial: https://github.com/meteor/chat-tutorial
 
-Doc to read [Narrow]
-------------------------
+##Doc to read [Narrow]
 1. Chatapp: http://sebastiandahlgren.se/2013/07/17/tutorial-writing-your-first-metor-application/
 
-Questions
-------------
+##Questions
 1. Reactive or Response?
 2. Lock Consideration?
 3. Super single thread / Multiple Threads for responses
 
-Note
-------
+##Note
 1. Transparent Reactive Programming: Meteor Deps
+
+##Version Record
+1. version001: simple and basic client-server-separate chat app
+2. version002: client-server-unified chat app with simple UI, chat window automatic scrolling, new messages notification
+3. version003: client-server-separate version of version002
+
     
 
