@@ -6,22 +6,31 @@
   <div class="container">
     <header>
       <h1>AraChat</h1>
+      {{> loginButtons}}
     </header>
-    <!-- chat messages here -->
+    <ul class="message-window">
+      {{#each recentMessages}}
+        {{> message}}
+      {{/each}}
+    </ul>
     <!-- more-messages button -->
+    {{#momentum plugin="fade"}}
+      {{#if thereAreUnreadMessages}}
+        <button class="more-messages">New Messages &#x25BE;</button>
+      {{/if}}
+    {{/momentum}}
+    
     <footer>
+      {{#if currentUser}}
         <form class="new-message">
           <input type="text" name="text" placeholder="Add a message" autocomplete="off"/>
         </form>
+      {{/if}}
     </footer>
   </div>
 </body>
 
-<ul class="message-window">
-  {{#each recentMessages}}
-    {{> message}}
-  {{/each}}
-</ul>
+<!-- message template here -->
 
 <template name="message">
   <li class="message">

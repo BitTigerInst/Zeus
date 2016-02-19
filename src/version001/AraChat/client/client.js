@@ -7,10 +7,10 @@ Template.messages.helpers({
     	* remember that Messages is a MongoDB object
     	* created in model.js at the top folder
     	*
-    	* In this case 'msg' will contain all message 
+    	* In this case 'msg' will contain all message
     	* documents from MongoDB sorted on the time attribute.
     	*/
-		return Messages.find({}, {sort: { time: -1}});
+		return Messages.find({}, {sort: {time: -1}});
   }
 })
 
@@ -21,7 +21,7 @@ Template.input.events = {
 				var name = Meteor.user().profile.name;
 			else
 				var name = 'WhoAmI';
-			
+
       var message = document.getElementById('message');
 
       if (message.value != '') {
