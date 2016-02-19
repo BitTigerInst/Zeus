@@ -46,6 +46,7 @@ Doc to read [Wide]
 5. Timeline.css: https://github.com/christian-fei/Timeline.css
 6. Opentalk.me: https://github.com/christian-fei/opentalk.me
 7. Firechat: https://github.com/firebase/firechat
+8. Meteor Chatroom Tutorial: https://github.com/meteor/chat-tutorial
 
 Doc to read [Narrow]
 1. Chatapp: http://sebastiandahlgren.se/2013/07/17/tutorial-writing-your-first-metor-application/
