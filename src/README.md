@@ -42,6 +42,7 @@
 6. Opentalk.me: https://github.com/christian-fei/opentalk.me
 7. Firechat: https://github.com/firebase/firechat
 8. Meteor Chatroom Tutorial: https://github.com/meteor/chat-tutorial
+9. Slack-Meteor: https://scotch.io/courses/building-a-slack-clone-in-meteor-js
 
 ##Doc to read [Narrow]
 1. Chatapp: http://sebastiandahlgren.se/2013/07/17/tutorial-writing-your-first-metor-application/
