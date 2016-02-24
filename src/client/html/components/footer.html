@@ -1,0 +1,9 @@
+<template name="footer">
+  <footer>
+    {{#if currentUser}} 
+      <form class="new-message">
+        <input type="text" name="text" placeholder="Add a message" autocomplete="off"/>
+      </form>
+    {{/if}}
+  </footer>
+</template>
