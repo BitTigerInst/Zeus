@@ -1,4 +1,4 @@
-autoScrollingIsActive = false;
+autoScrollingIsActive = false; // need var?
 /* reactive var here */
 thereAreUnreadMessages = new ReactiveVar(false); //
 

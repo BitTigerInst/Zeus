@@ -8,7 +8,7 @@ Template.messages.helpers({
 Template.messages.events({
   /* scroll event */
   "scroll .message-window": function () {
-    var howClose = 80;  // # pixels leeway to be considered "at Bottom"
+    var howClose = 600;  // # pixels leeway to be considered "at Bottom"
     var messageWindow = $(".message-window");
     var scrollHeight = messageWindow.prop("scrollHeight");
     var scrollBottom = messageWindow.prop("scrollTop") + messageWindow.height();
