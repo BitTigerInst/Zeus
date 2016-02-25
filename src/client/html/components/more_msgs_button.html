@@ -1,7 +1,7 @@
 <template name="more_msgs_button">
   {{#momentum plugin="fade"}}
     {{#if thereAreUnreadMessages}}
-      <button class="more-messages">New Messages &#x25BE;</button>
+      <button class="more-messages">{{numNewMessages}} New Messages &#x25BE;</button>
     {{/if}}
   {{/momentum}}
 </template>

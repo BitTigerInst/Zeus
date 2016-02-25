@@ -103,6 +103,10 @@ form {
   margin-top: 5px;
 }
 
+.timestamp{
+  margin-top: 5px;
+}
+
 .more-messages {
   position: absolute;
   bottom: 6rem;
