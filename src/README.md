@@ -60,5 +60,9 @@
 2. version002: client-server-unified chat app with simple UI, chat window automatic scrolling, new messages notification
 3. version003: client-server-separate version of version002
 
+##App Reference
+1. Wix
+2. React
+
     
 
