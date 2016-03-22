@@ -21,6 +21,7 @@
 4. Statistics Module
 5. Search Module
 6. Chat App Connection Module
+7. Chat Group Graph
 
 ##Version Description
 1. Meteor: client-server seperate, MongoDB
