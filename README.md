@@ -2,6 +2,7 @@
 
 There're several changes in this project.
 
+- [ ] Rename as Zeus
 - [ ] Original goal "A platform that allows users to create highly modular chat applications" will be suspended.
 - [ ] New goal is to create a chat app with features __I love__ or it will a plugin, who knows.
 - [ ] Angular or React such things are unnecessary until I do need them.
