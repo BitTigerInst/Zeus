@@ -21,6 +21,7 @@
 4. Statistics Module
 5. Search Module
 6. Chat App Connection Module
+7. Chat Group Graph
 
 ##Version Description
 1. Meteor: client-server seperate, MongoDB
@@ -42,7 +43,7 @@
 6. Opentalk.me: https://github.com/christian-fei/opentalk.me
 7. Firechat: https://github.com/firebase/firechat
 8. Meteor Chatroom Tutorial: https://github.com/meteor/chat-tutorial
-9. Meteor-Slack: https://scotch.io/courses/building-a-slack-clone-in-meteor-js
+9. Slack-Meteor: https://scotch.io/courses/building-a-slack-clone-in-meteor-js
 
 ##Doc to read [Narrow]
 1. Chatapp: http://sebastiandahlgren.se/2013/07/17/tutorial-writing-your-first-metor-application/
@@ -59,6 +60,10 @@
 1. version001: simple and basic client-server-separate chat app
 2. version002: client-server-unified chat app with simple UI, chat window automatic scrolling, new messages notification
 3. version003: client-server-separate version of version002
+
+##App Reference
+1. Wix
+2. React
 
     
 
