@@ -21,7 +21,7 @@ There're several features I'd like to try and implement. (Most related to __Natu
 
 - [ ] __Integration with Other Apps__. Can make it specified to other fields like Meetup, Project Managment, 3-Min-Video-Show (with Agora), Course/MOOC Selection, O2O, etc.
 
-- [ ] __Doc Share
+- [ ] __Doc Share__
 
 
 
